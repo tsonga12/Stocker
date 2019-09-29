@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">stocker</string>
+
+    <!--GENERIC MULTI-USE STRINGS-->
+    <string name="home">Home</string>
+    <string name="search_results">Search Results</string>
+    <string name="search">Search</string>
+    <string name="add_new">Add New</string>
+    <string name="go_back"><![CDATA[<]]></string>
+    <string name="search_by">Search by:</string>
+
+
+    <!--ACTIVITY MAIN STRINGS-->
+    <string name="stocker">Stocker</string>
+    <string name="product_button">Products</string>
+    <string name="supplier_button">Suppliers</string>
+    <string name="order_button">Orders</string>
+    <string name="customer_button">Customers</string>
+    <string name="title_activity_product_profile">ProductProfileActivity</string>
+
+
+    <!--PRODUCT STRINGS-->
+    <string name="product_profile_new">Add New Product</string>
+    <string name="product_profile_search">Search Products</string>
+    <string name="new_product_header">New Product</string>
+    <string name="product_name">Product Name:</string>
+    <string name="product_number">Product ID:</string>
+    <string name="product_cost">Cost Per Unit:</string>
+    <string name="product_price">Sale Price Per Unit:</string>
+    <string name="product_quantity">Quantity:</string>
+    <string name="product_supplier">Supplier:</string>
+    <string name="product_create">Create New Product</string>
+    <string name="product_cost_hint">10.00</string>
+    <string name="product_price_hint">100.00</string>
+    <string name="product_quantity_hint">42</string>
+    <string name="product_success_msg">Successfully Created New Product</string>
+    <string name="product_save_msg">Successfully Updated Product</string>
+    <string name="product_view_profile">View Product Profile</string>
+    <string name="product_more">Add A New Product</string>
+    <string name="product_delete">Delete</string>
+    <string name="product_save">Save Changes</string>
+    <!--ProductFailureActivity strings-->
+    <string name="product_failure_msg">Failed To Create New Product</string>
+    <string name="product_notsave_msg">Failed to Update Product</string>
+    <string name="product_failure_explain">**Retrieve Failure Msg From Logic**</string>
+    <string name="products">Products</string>
+
+
+
+    <!--SUPPLIER STRINGS-->
+    <string name="supplier_view_profile">View Supplier Profile</string>
+    <string name="supplier_more">Add a New Supplier</string>
+    <string name="suppliers">Suppliers</string>
+    <string name="new_supplier_header">New Supplier</string>
+    <string name="supplier_name">Supplier Name:</string>
+    <string name="supplier_id">Supplier ID:</string>
+    <string name="supplier_location">Location:</string>
+    <string name="supplier_phone">Phone Number:</string>
+    <string name="supplier_add">Add New Supplier</string>
+    <string name="supplier_success_msg">Successfully Added New Supplier</string>
+    <string name="supplier_failure_msg">Failed to Add New Supplier</string>
+    <string name="supplier_search">Search Suppliers</string>
+    <string name="supp_id_cannot_edit">Supplier ID (Cannot be changed):</string>
+    <string name="supp_generic_failure">Failed to Process Request</string>
+    <string name="supp_generic_success">Success!</string>
+
+
+    <!--CUSTOMER STRINGS-->
+    <string name="customers">Customers</string>
+    <string name="customer_view_profile">View Customer Profile</string>
+    <string name="customer_more">Add a New Customer</string>
+    <string name="customer_success_msg">Successfully Added New Customer!</string>
+    <string name="customer_search">Search Customers</string>
+    <string name="customer_create">Create New Customer</string>
+
+
+
+    <!--ORDER STRINGS-->
+    <string name="orders">Orders</string>
+    <string name="order_create">Create New Order</string>
+    <string name="order_more">Add a New Order</string>
+    <string name="order_view_profile">View Order Profile</string>
+    <string name="order_search">Search Orders</string>
+    <string name="remove_product">Remove</string>
+    <string name="order_edit_products">Add Product to Order</string>
+
+</resources>

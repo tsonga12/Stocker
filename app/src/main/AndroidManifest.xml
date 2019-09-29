@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comp3350.stocker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".presentation.Customer.CustomerSuccessActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.Customer.CustomerNewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.Customer.CustomerFailureActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.Product.ProductActivity" />
+        <activity android:name=".presentation.Product.ProductProfileActivity" />
+        <activity android:name=".presentation.Product.ProductFailureActivity" />
+        <activity android:name=".presentation.Supplier.SupplierProfileActivity" />
+        <activity
+            android:name=".presentation.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.Customer.CustomerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".presentation.Customer.CustomerProfileActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".presentation.Customer.CustomerSearchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".presentation.Product.ProductNewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".presentation.Product.ProductSuccessActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".presentation.Product.ProductSearchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".presentation.Product.ProductSearchResultsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".presentation.Order.OrderProfileActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".presentation.Order.OrderNewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".presentation.Order.OrderFailureActivity"/>
+        <activity android:name=".presentation.Order.OrderSuccessActivity"/>
+        <activity android:name=".presentation.Order.OrderActivity"/>
+        <activity android:name=".presentation.Order.OrderSearchActivity"/>
+        <activity android:name=".presentation.Order.OrderSearchResultsActivity"/>
+        <activity android:name=".presentation.Supplier.SupplierActivity"/>
+        <activity android:name=".presentation.Supplier.SupplierNewActivity" />
+        <activity android:name=".presentation.Supplier.SupplierSearchActivity" />
+        <activity android:name=".presentation.Supplier.SupplierSearchResultsActivity" />
+        <activity android:name=".presentation.Supplier.SupplierSuccessActivity" />
+        <activity android:name=".presentation.Supplier.SupplierFailureActivity" />
+    </application>
+
+</manifest>
